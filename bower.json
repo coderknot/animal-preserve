@@ -1,0 +1,17 @@
+{
+  "name": "animal-preserve",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Chris Carr <coder.knot@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

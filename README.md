@@ -1,6 +1,6 @@
 # Appalachian Animal Preserve - Animal Tracking Panel
 
-#### _A web-based management panel for a local animal preserve, Current Version: 05-05-2017_
+#### _A web-based management panel for tracking animals, Current Version: 05-05-2017_
 
 #### By _**John Carr**_
 
@@ -60,13 +60,14 @@ You will need the following things properly installed on your computer:
       * ~~Root~~
     * Components
       * ~~Root~~
-      * Animal-List
+      * ~~Animal-List~~
       * New-Animal
       * Edit-Animal
     * Pipes
       * Animal-Age
     * UX/UI
       * Utilize bootstrap to quickly divide and style application content
+        * Fix link issues as indicated by console error messages
       * Custom styling
     * Polish
       * Review and refactor as necessary

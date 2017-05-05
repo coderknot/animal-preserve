@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <h1>Appalachain Animal Preservea</h1>
+  <h1>Appalachain Animal Preserve</h1>
   `
 })
 

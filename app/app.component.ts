@@ -4,8 +4,8 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
-  <h1>Appalachain Animal Preserve</h1>
   <div class="container">
+    <h1>Appalachain Animal Preserve</h1>
     <ul>
       <animal-list [animalList]="masterAnimalList"></animal-list>
     </ul>
@@ -26,9 +26,6 @@ import { Animal } from './animal.model';
             </div>
             <div class="modal-body">
               <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" style="margin-top:5px;" data-dismiss="modal">Close</button>
             </div>
           </div>
 

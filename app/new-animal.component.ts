@@ -58,8 +58,10 @@ import { Animal } from './animal.model';
       newAnimalLikes.value='';
       newAnimalDislikes.value='';
       newAnimalCaretakers.value='';
-      newAnimalLocation.value='';
-      ">Add</button>
+      newAnimalLocation.value='';"
+      data-dismiss="modal"
+      style="margin-top:5px;"
+      >Add</button>
   `
 })
 

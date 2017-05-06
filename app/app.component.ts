@@ -7,8 +7,9 @@ import { Animal } from './animal.model';
   <div class="container">
     <h1>Appalachain Animal Preserve</h1>
     <ul>
-      <animal-list [animalList]="masterAnimalList"></animal-list>
+      <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
     </ul>
+    <edit-animal [selectedAnimalToEdit]="selectedAnimal" (editFormClickSender)="editAnimalComplete()"></edit-animal>
     <hr>
     <div class="container">
       <!-- Trigger the modal with a button -->
@@ -38,6 +39,7 @@ import { Animal } from './animal.model';
 })
 
 export class AppComponent {
+  selectedAnimal = null;
   masterAnimalList: Animal[] = [
     new Animal('Fluffy','Mountain Lion',2,'Male','Omnivore','Bouncy balls','Kale',3,'Cougar Enclosure'),
     new Animal('Prince','Whitetail Deer',4,'Male','Herbivore','Food','Guns',1,'Section 2'),
@@ -46,5 +48,13 @@ export class AppComponent {
 
   addAnimal(newAnimal: Animal) {
     this.masterAnimalList.push(newAnimal);
+  }
+
+  editAnimal(selectedAnimalFromList) {
+    this.selectedAnimal = selectedAnimalFromList;
+  }
+
+  editAnimalComplete() {
+    this.selectedAnimal = null;
   }
 }

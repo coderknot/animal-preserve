@@ -44,12 +44,12 @@ import { Animal } from './animal.model';
       (click)="submitNewAnimalForm(newAnimalName.value,
                                    newAnimalSpecies.value,
                                    newAnimalAge.value,
-                                   newAnimalSex,
-                                   newAnimalDiet,
-                                   newAnimalLikes,
-                                   newAnimalDislikes,
-                                   newAnimalCaretakers,
-                                   newAnimalLocation);
+                                   newAnimalSex.value,
+                                   newAnimalDiet.value,
+                                   newAnimalLikes.value,
+                                   newAnimalDislikes.value,
+                                   newAnimalCaretakers.value,
+                                   newAnimalLocation.value);
       newAnimalName.value='';
       newAnimalSpecies.value='';
       newAnimalAge.value='';

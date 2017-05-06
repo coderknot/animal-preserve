@@ -48,7 +48,7 @@ You will need the following things properly installed on your computer:
       * ~~caretakers~~
       * ~~location~~
     * View a list of all animals
-    * Edit specific animal details
+    * ~~Edit specific animal details~~
     * Filter animals based on age:
       * All
       * Young (less than 2 years)
@@ -62,7 +62,7 @@ You will need the following things properly installed on your computer:
       * ~~Root~~
       * ~~Animal-List~~
       * ~~New-Animal~~
-      * Edit-Animal
+      * ~~Edit-Animal~~
     * Pipes
       * Animal-Age
     * UX/UI

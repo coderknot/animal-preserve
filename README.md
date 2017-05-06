@@ -37,16 +37,16 @@ You will need the following things properly installed on your computer:
     * ~~NPM - npm install~~
     * ~~Angular Project Directory Setup~~
   * Specs - Users should be able to:
-    * Add newly-admitted animals by submitting a form with animal:
-      * name
-      * species
-      * age
-      * sex
-      * diet
-      * likes
-      * dislikes
-      * caretakers
-      * location
+    * ~~Add newly-admitted animals by submitting a form with animal:~~
+      * ~~name~~
+      * ~~species~~
+      * ~~age~~
+      * ~~sex~~
+      * ~~diet~~
+      * ~~likes~~
+      * ~~dislikes~~
+      * ~~caretakers~~
+      * ~~location~~
     * View a list of all animals
     * Edit specific animal details
     * Filter animals based on age:
@@ -61,7 +61,7 @@ You will need the following things properly installed on your computer:
     * Components
       * ~~Root~~
       * ~~Animal-List~~
-      * New-Animal
+      * ~~New-Animal~~
       * Edit-Animal
     * Pipes
       * Animal-Age
@@ -69,6 +69,7 @@ You will need the following things properly installed on your computer:
       * Utilize bootstrap to quickly divide and style application content
         * Fix link issues as indicated by console error messages
       * Custom styling
+        * Refactor inline styling of add button on New Animal Form
     * Polish
       * Review and refactor as necessary
       * Remove unused code, logs, and comments

@@ -1,0 +1,14 @@
+.jumbotron {
+  background-color: inherit;
+  background: url("../../resources/img/header_background.jpg") no-repeat top left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  height: 200px;
+}
+
+.jumbotron h1 {
+  font-family: 'Patua One', Georgia, Serif;
+  color: #ffee70;
+}

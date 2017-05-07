@@ -4,15 +4,13 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
+    <div class="jumbotron">
+      <h1 class="container">Appalachian Animal Preserve</h1>
+    </div>
     <div class="container">
-      <div class="jumbotron">
-        <h1 class="container">Appalachian Animal Preserve</h1>
-      </div>
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add Animal</button>
-      <ul>
-        <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
-      </ul>
+      <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
       <edit-animal [selectedAnimalToEdit]="selectedAnimal" (editFormClickSender)="editAnimalComplete()"></edit-animal>
       <hr>
     </div>

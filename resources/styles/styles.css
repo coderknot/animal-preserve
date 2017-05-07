@@ -12,3 +12,11 @@
   font-family: 'Patua One', Georgia, Serif;
   color: #ffee70;
 }
+
+.navbar-form {
+  padding: 10px 0px;
+}
+.selectMenu {
+  float: left;
+  padding-right: 10;
+}

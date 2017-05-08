@@ -1,0 +1,52 @@
+label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.modal-header {
+  padding-bottom: 0;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+
+.jumbotron {
+  background-color: inherit;
+  background: url("../../resources/img/header_background.jpg") no-repeat top left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  height: 200px;
+  border-bottom: 3px solid #eddd68;
+}
+
+.jumbotron h1 {
+  font-family: 'Patua One', Georgia, Serif;
+  color: #ffee70;
+}
+
+.navbar-form {
+  padding: 10px 0px;
+}
+.selectMenu {
+  float: left;
+  padding-right: 10;
+}
+
+.fauxLink {
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.fauxLink:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+
+.btn-default {
+  background-color: #ffee70;
+}
+
+.btn-default:hover {
+  background-color: #2196f3;
+}

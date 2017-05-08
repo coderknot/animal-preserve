@@ -4,16 +4,16 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
-  <div class="container">
-    <h1>Appalachain Animal Preserve</h1>
-    <ul>
-      <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
-    </ul>
-    <edit-animal [selectedAnimalToEdit]="selectedAnimal" (editFormClickSender)="editAnimalComplete()"></edit-animal>
-    <hr>
+    <div class="jumbotron">
+      <h1 class="container">Appalachian Animal Preserve</h1>
+    </div>
     <div class="container">
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add Animal</button>
+      <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
+      <edit-animal [selectedAnimalToEdit]="selectedAnimal" (editFormClickSender)="editAnimalComplete()"></edit-animal>
+    </div>
+    <div class="container">
 
       <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
@@ -34,7 +34,6 @@ import { Animal } from './animal.model';
       </div>
 
     </div>
-  </div>
   `
 })
 

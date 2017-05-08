@@ -1,6 +1,6 @@
 # Appalachian Animal Preserve - Animal Tracking Panel
 
-#### _A web-based management panel for tracking animals, Current Version: 05-05-2017_
+#### _A web-based management panel for tracking animals, Current Version: 05-08-2017_
 
 #### By _**John Carr**_
 
@@ -76,8 +76,8 @@ You will need the following things properly installed on your computer:
       * Finalize README
   * Additional Features
     * Integration of service provider for accessing animal data (allows for data to be easily shared across multiple components and separates data source details from application functionality)
-    * Filtering on additional animal details through pipes:
-      * animal-diet - filter based on all, carnivores, omnivores, or herbivores to simplify the food preparation process performed by caretakers
+    * ~~Filtering on additional animal details through pipes:~~
+      * ~~animal-diet - filter based on all, carnivores, omnivores, or herbivores to simplify the food preparation process performed by caretakers~~
     * Calculate and display the total number of caretakers needed
     * Timestamp property added to animal record, generated on submission of new animal form
 

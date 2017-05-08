@@ -12,7 +12,6 @@ import { Animal } from './animal.model';
       <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add Animal</button>
       <animal-list [animalList]="masterAnimalList" (editButtonClickSender)="editAnimal($event)"></animal-list>
       <edit-animal [selectedAnimalToEdit]="selectedAnimal" (editFormClickSender)="editAnimalComplete()"></edit-animal>
-      <hr>
     </div>
     <div class="container">
 

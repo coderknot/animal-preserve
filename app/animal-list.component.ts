@@ -44,7 +44,7 @@ import { Animal } from './animal.model';
           <td>{{animal.dislikes}}</td>
           <td>{{animal.caretakers}}</td>
           <td>{{animal.location}}</td>
-          <td><button class="btn btn-default" (click)="editButtonClicked(animal)">Update Animal Record</button></td>
+          <td><span class="glyphicon glyphicon-pencil fauxLink" aria-hidden="true" (click)="editButtonClicked(animal)"> <strong>Edit</strong></span></td>
         </tr>
       </tbody>
     </table>

@@ -8,11 +8,21 @@ import { Animal } from './animal.model';
     <div class="navbar-form">
 
       <div class="selectMenu">
-        <select class="form-control" (change)="onChange($event.target.value)">
+        <select class="form-control" (change)="ageOnChange($event.target.value)">
           <option value="" disabled selected>Filter By Age</option>
           <option value="all">All Animals</option>
           <option value="young">Young Animals (2 years or younger)</option>
           <option value="mature">Mature Animal (Older than 2 years)</option>
+        </select>
+      </div>
+
+      <div class="selectMenu">
+        <select class="form-control" (change)="dietOnChange($event.target.value)">
+          <option value="" disabled selected>Filter By Diet</option>
+          <option value="all">All Animals</option>
+          <option value="carnivore">Carnivores</option>
+          <option value="omnivore">Omnivores</option>
+          <option value="herbivore">Herbivores</option>
         </select>
       </div>
 
@@ -34,7 +44,7 @@ import { Animal } from './animal.model';
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let animal of animalList | age:filterByAge">
+        <tr *ngFor="let animal of animalList | age:filterByAge | diet:filterByDiet">
           <td>{{animal.name}}</td>
           <td>{{animal.species}}</td>
           <td>{{animal.age}}</td>
@@ -55,9 +65,14 @@ export class AnimalListComponent {
   @Input() animalList: Animal[];
   @Output() editButtonClickSender = new EventEmitter();
   filterByAge: string = "age";
+  filterByDiet: string = "diet";
 
-  onChange(optionFromMenu) {
+  ageOnChange(optionFromMenu) {
     this.filterByAge = optionFromMenu;
+  }
+
+  dietOnChange(optionFromMenu) {
+    this.filterByDiet = optionFromMenu;
   }
 
   editButtonClicked(animalToEdit: Animal) {

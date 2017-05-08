@@ -35,7 +35,7 @@ You will need the following things properly installed on your computer:
 
   * Configuration / Dependencies
     * ~~NPM - npm install~~
-    * ~~Bower - bower install ~~
+    * ~~Bower - bower install~~
     * ~~Angular Project Directory Setup~~
   * Specs - Users should be able to:
     * ~~Add newly-admitted animals by submitting a form with animal:~~
@@ -48,7 +48,7 @@ You will need the following things properly installed on your computer:
       * ~~dislikes~~
       * ~~caretakers~~
       * ~~location~~
-    * View a list of all animals
+    * ~~View a list of all animals~~
     * ~~Edit specific animal details~~
     * ~~Filter animals based on age:~~
       * ~~All~~
@@ -67,10 +67,9 @@ You will need the following things properly installed on your computer:
     * Pipes
       * ~~Animal-Age~~
     * UX/UI
-      * Utilize bootstrap to quickly divide and style application content
-        * Fix link issues as indicated by console error messages
-      * Custom styling
-        * Refactor inline styling of add button on New Animal Form
+      * ~~Utilize bootstrap to quickly divide and style application content~~
+        * ~~Fix link issues as indicated by console error messages~~
+      * ~~Custom styling~~
     * Polish
       * Review and refactor as necessary
       * Remove unused code, logs, and comments
@@ -78,7 +77,7 @@ You will need the following things properly installed on your computer:
   * Additional Features
     * Integration of service provider for accessing animal data (allows for data to be easily shared across multiple components and separates data source details from application functionality)
     * Filtering on additional animal details through pipes:
-      * animal-diet - filter based on all, carnivores, omnivores, herbivores to simplify the food preparation process performed by caretakers
+      * animal-diet - filter based on all, carnivores, omnivores, or herbivores to simplify the food preparation process performed by caretakers
     * Calculate and display the total number of caretakers needed
     * Timestamp property added to animal record, generated on submission of new animal form
 
